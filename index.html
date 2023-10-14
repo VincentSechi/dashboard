@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <script type="text/javascript" src="constant.js"></script>
+    <title>Intégration</title>
+</head>
+<body>
+    <!-- navbar -->
+    <header class="navbar">
+        <div class="navbar-container">
+            <div class="nav-logo">
+                <img src="assets/logotype.png" alt="logo" class="logo">
+            </div>
+            <nav>
+                <div class="searchbar">
+                    <input type="search" placeholder="Search" class="searchField">
+                    <img src="assets/glass.svg" alt="glass" class="icon">
+                </div>
+                <div class="ham-menu">
+                    <img src="assets/menu.svg" alt="menu" width="24px" height="24px">
+                </div>
+                <div class="nav-menu">
+                    <div class="burger">
+                        <img src="assets/burger.svg" alt="burger" class="menu-icon">
+                    </div>
+                    <div class="nav-choose">
+                        <p>Delicious Burger</p>
+                        <img src="assets/chevron-down.svg" alt="chevron-down" class="icon">
+                    </div>
+                    <img src="assets/bell.svg" alt="bell" class="menu-icon">
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrapper">
+        <!-- sidebar -->
+        <div class="sideNav">
+            <div class="sideNav-items">
+                <div class="sideNav-menu">
+                    <h4 class="sideNav-title1">menu</h4>
+                    <button class="dashBoard-btn">
+                        <img src="assets/dashboard.svg" alt="dashboard" width="30px" height="30px">
+                        <p>dashboard</p>
+                    </button>
+                    <ul>
+                        <li class="li-nav-menu">
+                            <div class="li-nav-menu-item">
+                                <img src="assets/order.svg" alt="order" class="icon">
+                                <p>Order</p>
+                            </div>
+                            <img src="assets/chevron-down.svg" alt="chevron-down" class="icon">
+                        </li>
+                        <li class="li-nav">
+                            <img src="assets/graph.svg" alt="graph" class="icon">
+                            <p>Report</p>
+                        </li>
+                        <li class="li-nav">
+                            <img src="assets/track.svg" alt="track" class="icon">
+                            <p>Track</p>
+                        </li>
+                        <li class="li-nav">
+                            <img src="assets/tools.svg" alt="tools" class="icon">
+                            <p>Maintenance</p>
+                        </li>
+                    </ul>
+                    <h4 class="sideNav-title2">system</h4>
+                    <ul>
+                        <li class="li-nav-menu">
+                            <div class="li-nav-menu-item">
+                                <img src="assets/folder.svg" alt="folder" class="icon">
+                                <p>Master Data</p>
+                            </div>
+                            <img src="assets/chevron-down.svg" alt="chevron-down" class="icon">
+                        </li>
+                        <li class="li-nav">
+                            <img src="assets/user-solid.svg" alt="user" class="icon">
+                            <p>User</p>
+                        </li>
+                        <li class="li-nav">
+                            <img src="assets/users-solid.svg" alt="role" class="icon">
+                            <p>Role</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- main -->
+        <main>
+            <h1 class="dashboard-title">Dashboard</h1>
+            <!-- 1st section -->
+            <section class="card-container">
+                <div class="card">
+                    <img src="assets/truck1.png" alt="truck1" class="truck">
+                    <div class="card-description">
+                        <h3 class="card-title">2.409<span class="card-span"> ↑ 2.1%</span></h3>
+                        <p class="card-p">Pesanan Selesai</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/truck2.png" alt="truck2" class="truck">
+                    <div class="card-description">
+                        <h3 class="card-title">68,9%</h3>
+                        <p class="card-p">Pesanan Selesai</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/truck3.png" alt="truck3" class="truck">
+                    <div class="card-description">
+                        <h3 class="card-title">68,9%</h3>
+                        <p class="card-p">KPI Driver</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/truck4.png" alt="truck4" class="truck">
+                    <div class="card-description">
+                        <h3 class="card-title">3.509</h3>
+                        <p class="card-p">Total Customer</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="statistik">
+                <div class="stats">
+                    <div class="stats-title">
+                        <h4>Statistik Permesanan</h4>
+                        <div class="stats-date">
+                            <img src="assets/calendar.svg" alt="calendar" class="calendar">
+                            <p>06/10/2023</p>
+                        </div>
+                    </div>
+                        <div>
+                            <div class="stats-grid">
+                            <div id="ten" class="amount">1000</div>
+                            <div id="nine" class="amount">900</div>
+                            <div id="eight" class="amount">800</div>
+                            <div id="seven" class="amount">700</div>
+                            <div id="six" class="amount">600</div>
+                            <div id="five" class="amount">500</div>
+                            <div id="four" class="amount">400</div>
+                            <div id="three" class="amount">300</div>
+                            <div id="two" class="amount">200</div>
+                            <div id="one" class="amount">100</div>
+                            <div class="jan" id="month">Jan</div>
+                            <div class="feb" id="month">Feb</div>
+                            <div class="mar" id="month">Mar</div>
+                            <div class="apr" id="month">Apr</div>
+                            <div class="mei" id="month">Mei</div>
+                            <div class="jun" id="month">Jun</div>
+                            <div class="jul" id="month">Jul</div>
+                            <div class="aug" id="month">Aug</div>
+                            <div class="sep" id="month">Sep</div>
+                            <div class="okt" id="month">Okt</div>
+                            <div class="nov" id="month">Nov</div>
+                            <div class="dec" id="month">Dec</div>
+                            <div class="column3"></div>
+                            <div class="column4"> </div>
+                            <div class="column5"> </div>
+                            <div class="column6"> </div>
+                            <div class="column7"> </div>
+                            <div class="column8"> </div>
+                            <div class="column9"> </div>
+                            <div class="column10"> </div>
+                            <div class="column11"> </div>
+                            <div class="column12"> </div>
+                            <div class="column13"> </div>
+                            <div class="column14"> </div>
+                            <div class="column15"> </div>
+                            <div class="column16"> </div>
+                            <div class="column17"> </div>
+                            <div class="column18"> </div>
+                            <div class="column19"> </div>
+                            <div class="column20"> </div>
+                            <div class="column21"> </div>
+                            <div class="column22"> </div>
+                            <div class="column23"> </div>
+                            <div class="column24"> </div>
+                            <div class="column25"> </div>
+                            <div class="column26"> </div>
+                        </div>
+                     </div>   
+                </div>
+                <div class="separator">
+                </div>
+                <div class="statistik-customer">
+                    <h4>Customer Permesanan Terbanyak</h4>
+                    <ul id="stat-list" class="stat-list">
+                    </ul>
+                </div>
+            </section>
+
+            <section class="overview">
+                <div class="overview-head">
+                    <h4>Overview Pemesanan</h4>
+                    <input type="search" placeholder="Search..." class="overview-input">
+                </div>
+                <div class="tab-container">
+                    <table id="overview-tab" class="overview-tab">
+                        <script type="text/javascript" src="constant.js">
+                        </script>
+                    </table>
+                </div>
+            </section>
+            <div class="pagination-container">
+                <button class="prev" onclick="prev()">Prev</button>
+                <ul class="pagination" id="pagination">
+                    <li class="page-item-active" onclick="changeColor(this)">1</li>
+                    <li class="page-item" onclick="changeColor(this)">2</li>
+                    <li class="page-item" onclick="changeColor(this)">3</li>
+                    <li class="page-item" onclick="changeColor(this)">4</li>
+                    <li class="page-item" onclick="changeColor(this)">5</li>
+                </ul>
+                <button class="next" onclick="next()">Next</button>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
