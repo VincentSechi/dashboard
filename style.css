@@ -325,6 +325,8 @@ main{
     grid-template-rows: repeat(11, 1fr);
     grid-column-gap: 20px;
     grid-row-gap: 0px;
+    
+    height:600px;
 }
 #month{
     margin-top:10px;
@@ -527,9 +529,6 @@ td{
     .card{
         min-width: 49%;
         margin:0;
-    }
-    .stats-grid{
-        height:600px;
     }
 }
 @media (max-width:1300px){
